@@ -2,7 +2,7 @@
 
 # Sunanda Vasanthi Tata
 
-**Software Engineer** | Fullerton, CA
+**Software Engineer** | CA
 
 [![Email](https://img.shields.io/badge/Email-sunandavasanthitata%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sunandavasanthitata@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tata--sunanda-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tata-sunanda/)
