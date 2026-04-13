@@ -7,7 +7,7 @@
 [![Email](https://img.shields.io/badge/Email-sunandavasanthitata%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sunandavasanthitata@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tata--sunanda-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tata-sunanda/)
 [![GitHub](https://img.shields.io/badge/GitHub-sunandatata-181717?style=flat&logo=github&logoColor=white)](https://github.com/sunandatata)
-[![Phone](https://img.shields.io/badge/Phone-%2B1%20(657)%20445--5516-4285F4?style=flat&logo=phone&logoColor=white)](tel:+16574455516)
+
 
 </div>
 
