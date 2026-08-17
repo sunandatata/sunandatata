@@ -1,10 +1,3 @@
-from pathlib import Path
-
-src = Path("/mnt/data/Pasted markdown.md")
-out = Path("/mnt/data/README_updated.md")
-
-content = r'''<div align="center">
-
 # Sunanda Vasanthi Tata
 
 ### Software Engineer | Backend & Distributed Systems | AI/LLM Engineering
