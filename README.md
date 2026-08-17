@@ -205,6 +205,3 @@ Open to opportunities in **Software Engineering, Backend Engineering, Distribute
 </div>
 '''
 
-out.write_text(content, encoding="utf-8")
-print(f"Created: {out}")
-print(f"Characters: {len(content):,}")
