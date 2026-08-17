@@ -1,4 +1,9 @@
-<div align="center">
+from pathlib import Path
+
+src = Path("/mnt/data/Pasted markdown.md")
+out = Path("/mnt/data/README_updated.md")
+
+content = r'''<div align="center">
 
 # Sunanda Vasanthi Tata
 
@@ -15,20 +20,20 @@
 
 ## About Me
 
-Software Engineer focused on building **scalable backend platforms, distributed systems, and AI-powered applications**.
+Software Engineer with experience building **production backend systems, distributed services, real-time data pipelines, and AI-powered applications** across **Pacific Life, Uber, Hitachi Vantara, and California State University, Fullerton**.
 
-My experience spans production engineering across **Pacific Life, Uber, Hitachi Vantara, and California State University, Fullerton**, where I have worked on systems involving **Java microservices, real-time data processing, Kafka, Redis, Kubernetes, cloud infrastructure, and modern AI/LLM workflows**.
+My work has focused on the engineering problems that matter in production: **latency, reliability, scalability, security, observability, and maintainability**. I have built and optimized systems using **Java, Spring Boot, Python, Kafka, Redis, PostgreSQL, Kubernetes, AWS, and Azure**, while also developing practical AI applications with **LangChain, RAG, vector search, PyTorch, and Hugging Face Transformers**.
 
-I enjoy solving engineering problems where **performance, reliability, scalability, and developer usability** all matter — from reducing API latency and optimizing distributed pipelines to integrating **LangChain, RAG, vector search, and computer vision** into practical applications.
+I’m especially interested in **backend engineering, distributed systems, platform engineering, and applied AI**, where strong software fundamentals meet high-impact production problems.
 
-### What I work with
+### Engineering Focus
 
 - ⚙️ **Backend Engineering** — Java, Spring Boot, Python, FastAPI, Node.js, REST APIs
-- 🌐 **Distributed Systems** — Kafka, Redis, event-driven architectures, microservices
+- 🌐 **Distributed Systems** — Kafka, Redis, microservices, event-driven architecture
 - ☁️ **Cloud & Infrastructure** — AWS, Azure, Docker, Kubernetes, Terraform, CI/CD
 - 🤖 **AI Engineering** — LLMs, LangChain, RAG, vector search, Hugging Face, PyTorch
-- 📊 **Data Systems** — PostgreSQL, MongoDB, MySQL, Spark/PySpark, Apache Hudi
-- 🔐 **Production Engineering** — OAuth 2.0, RBAC, observability, testing, performance optimization
+- 📊 **Data Engineering** — PostgreSQL, MySQL, MongoDB, Spark/PySpark, Apache Hudi
+- 🔐 **Production Reliability** — OAuth 2.0, JWT, RBAC, Prometheus, Jaeger, automated testing
 
 ---
 
@@ -38,13 +43,10 @@ I enjoy solving engineering problems where **performance, reliability, scalabili
 
 **Newport Beach, CA | Jun 2025 – May 2026**
 
-- Built **Java and Spring Boot loan-validation services** powering commercial and residential loan workflows, exposing APIs used by React dashboards for **300+ internal users**.
-
-- Improved Kubernetes-hosted service performance by introducing **Redis caching** and optimizing Kafka consumer behavior, reducing **API p95 latency by 40%**.
-
-- Integrated **LangChain-based anomaly detection** into ingestion workflows to identify statistical outliers and surface validation failures before downstream accounting processing.
-
-- Delivered production **TypeScript workflow and exception-management components** through GitHub Actions-based CI/CD while maintaining **WCAG 2.1 AA accessibility** and contributing to zero regression incidents across four production cycles.
+- Engineered **Java and Spring Boot loan portfolio validation services** for commercial and residential lending platforms, exposing REST APIs used by React dashboards for **300+ internal users** and removing the need for direct SQL access by operations teams.
+- Reduced **API p95 latency by 40%** across Kubernetes-hosted services by introducing Redis caching for high-cardinality loan lookups and tuning Kafka consumer partitioning and batch-fetch behavior.
+- Integrated **LangChain-based anomaly detection** into daily ingestion workflows to identify statistical outliers and surface validation issues before downstream accounting processing.
+- Shipped production **TypeScript workflow approval and exception-handling components** through GitHub Actions CI/CD while maintaining **WCAG 2.1 AA compliance** and contributing to zero regression incidents across four production cycles.
 
 ---
 
@@ -52,13 +54,10 @@ I enjoy solving engineering problems where **performance, reliability, scalabili
 
 **Fullerton, CA | Sep 2024 – May 2025**
 
-- Developed a **MERN-based real-time monitoring platform** supporting **100+ connected devices**, including telemetry, alerting, REST APIs, and system observability.
-
-- Built a containerized **room discovery and booking platform** with full-text search and filtering, deployed using **Docker and Kubernetes** and optimized for concurrent campus usage.
-
-- Prototyped practical AI applications including **Retrieval-Augmented Generation (RAG) assistants** and deep-learning computer vision workflows.
-
-- Developed a **YOLOv8 hardware-detection system**, optimizing inference and image-processing pipelines for improved reliability and real-time performance.
+- Developed a **MERN-based real-time monitoring platform** supporting **100+ connected devices**, including REST APIs, telemetry, alerting, and observability capabilities.
+- Built a containerized **room discovery and booking service** with full-text search and filtering, deployed using **Docker and Kubernetes** and optimized for concurrent campus usage.
+- Researched and prototyped practical AI applications including **RAG-based assistants** and computer vision pipelines using deep-learning frameworks.
+- Implemented a **YOLOv8 hardware-detection system**, optimizing image-processing and inference workflows for more reliable real-time recognition.
 
 ---
 
@@ -66,13 +65,10 @@ I enjoy solving engineering problems where **performance, reliability, scalabili
 
 **Bengaluru, India | Sep 2023 – Jul 2024**
 
-- Reduced merchant onboarding processing time from **5 days to under 24 hours** by integrating real-time menu-processing functionality into core Java microservices.
-
-- Reworked multi-fulfillment order tracking across delivery, grocery, and pickup workflows, using **Redis caching and PostgreSQL optimization** to reduce peak request latency by **20%**.
-
-- Standardized **OAuth 2.0 and RBAC authorization patterns** across distributed services and integrated **Prometheus and Jaeger** telemetry to improve production incident diagnosis.
-
-- Built batch and real-time ingestion pipelines using **Python and PySpark** over Apache Hudi datasets while supporting automated deployments through **Spinnaker CI/CD infrastructure**.
+- Reduced merchant onboarding processing time from **5 days to under 24 hours** by integrating real-time menu-processing modules into core Java microservices built within Uber's Bazel monorepo.
+- Revamped multi-fulfillment order tracking across delivery, grocery, and pickup workflows, using **Redis caching and PostgreSQL tuning** to reduce peak request latency by **20%**.
+- Strengthened distributed-service security by standardizing **OAuth 2.0 and RBAC** access models and integrating **Prometheus and Jaeger** telemetry to accelerate production incident triage.
+- Built batch and real-time analytics ingestion pipelines with **Python and PySpark** over **Apache Hudi** datasets and supported automated staging deployments through **Spinnaker CI/CD**.
 
 ---
 
@@ -81,24 +77,22 @@ I enjoy solving engineering problems where **performance, reliability, scalabili
 **Bengaluru, India | Jan 2023 – Aug 2023**
 
 - Developed backend data-transformation plugins for the **Pentaho platform** using Java and SQL.
-
-- Optimized relational database queries and improved reporting execution efficiency by **15%**.
-
-- Created Python-based integration and interoperability test automation for backend components.
-
-- Supported containerized deployments across **Docker and Kubernetes staging environments** as part of CI/CD regression workflows.
+- Optimized relational query execution to improve reporting-module performance by **15%**.
+- Built automated integration and interoperability test scripts using Python.
+- Supported containerized service deployments across **Docker and internal Kubernetes staging clusters** for CI/CD regression cycles.
 
 ---
 
-## Projects
+## Featured Projects
 
 ### 🧠 ChronoMind — AI Memory Assistant
 
-An AI-powered memory system designed to reconstruct information across time using a combination of **semantic retrieval and graph relationships**.
+AI-powered memory retrieval system that combines **semantic search with graph relationships** to reconstruct contextual timelines from stored information.
 
-Built backend services with **FastAPI**, combining **Qdrant vector search**, **Neo4j graph relationships**, and **LangChain-powered RAG workflows** to retrieve context from a multi-thousand-entry memory corpus.
-
-The hybrid **graph + vector retrieval architecture** provides richer contextual relationships than flat semantic similarity alone.
+- Built FastAPI services around **LangChain-powered RAG workflows**.
+- Combined **Qdrant vector search** with **Neo4j graph relationships** for hybrid retrieval.
+- Used PostgreSQL for structured persistence across a **multi-thousand-entry corpus**.
+- Improved contextual retrieval quality compared with flat semantic search by combining graph and vector relationships.
 
 **Tech:** `Python` `FastAPI` `LangChain` `Neo4j` `Qdrant` `OpenAI` `PostgreSQL`
 
@@ -106,11 +100,12 @@ The hybrid **graph + vector retrieval architecture** provides richer contextual 
 
 ### 🚗 Ride Matching and ETA Engine
 
-An event-driven backend prototype for **real-time driver matching and ETA estimation**.
+Event-driven backend prototype for **real-time driver matching and ETA estimation**.
 
-Designed the system using **Spring Boot, Kafka, Redis Geo, and PostgreSQL** to process location events, rank nearby drivers, and support low-latency matching.
-
-Containerized and deployed the application on **Kubernetes**, combining geospatial database queries with Redis caching for responsive matching workflows.
+- Built matching services with **Java and Spring Boot**.
+- Used **Kafka** to process driver and rider location events asynchronously.
+- Applied **Redis Geo** and geospatial PostgreSQL queries to rank nearby drivers.
+- Deployed the system on **Kubernetes** with Redis caching for low-latency matching workflows.
 
 **Tech:** `Java` `Spring Boot` `Kafka` `Redis Geo` `Kubernetes` `PostgreSQL`
 
@@ -140,7 +135,7 @@ Containerized and deployed the application on **Kubernetes**, combining geospati
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white)
 ![Material UI](https://img.shields.io/badge/Material%20UI-007FFF?style=flat&logo=mui&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-005571?style=flat&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=flat&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Microservices-FF6B6B?style=flat&logoColor=white)
 
 ### Distributed Systems & Data
@@ -148,6 +143,7 @@ Containerized and deployed the application on **Kubernetes**, combining geospati
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Apache Hudi](https://img.shields.io/badge/Apache%20Hudi-5A45FF?style=flat&logo=apache&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
@@ -161,7 +157,7 @@ Containerized and deployed the application on **Kubernetes**, combining geospati
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat&logo=azuredevops&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat&logoColor=white)
+![Spinnaker](https://img.shields.io/badge/Spinnaker-139BB4?style=flat&logo=spinnaker&logoColor=white)
 
 ### AI / ML
 
@@ -171,8 +167,8 @@ Containerized and deployed the application on **Kubernetes**, combining geospati
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Vector Search](https://img.shields.io/badge/Vector%20Search-6C63FF?style=flat&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-412991?style=flat&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat&logo=qdrant&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white)
 
 ### Security, Observability & Quality
 
@@ -180,6 +176,7 @@ Containerized and deployed the application on **Kubernetes**, combining geospati
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
 ![RBAC](https://img.shields.io/badge/RBAC-4CAF50?style=flat&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Jaeger](https://img.shields.io/badge/Jaeger-60D0E4?style=flat&logo=jaeger&logoColor=black)
 ![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat&logo=junit5&logoColor=white)
 ![Mockito](https://img.shields.io/badge/Mockito-2D9A3B?style=flat&logoColor=white)
 
@@ -201,9 +198,9 @@ Containerized and deployed the application on **Kubernetes**, combining geospati
 
 <div align="center">
 
-### Building scalable systems. Optimizing production software. Exploring practical AI.
+### Building scalable systems. Improving production performance. Applying AI to real engineering problems.
 
-I'm interested in **Software Engineering, Backend, Distributed Systems, Platform Engineering, and AI Engineering** opportunities where I can work on high-impact production systems.
+Open to opportunities in **Software Engineering, Backend Engineering, Distributed Systems, Platform Engineering, and AI Engineering**.
 
 **Let's connect**
 
@@ -213,3 +210,8 @@ I'm interested in **Software Engineering, Backend, Distributed Systems, Platform
 [Phone](tel:+16574455516)
 
 </div>
+'''
+
+out.write_text(content, encoding="utf-8")
+print(f"Created: {out}")
+print(f"Characters: {len(content):,}")
