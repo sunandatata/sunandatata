@@ -56,7 +56,7 @@ I’m especially interested in **backend engineering, distributed systems, platf
 
 ### Uber — Software Engineer
 
-**Bengaluru, India | Sep 2023 – Jul 2024**
+**Bengaluru, India | Jul 2023 – Jul 2024**
 
 - Reduced merchant onboarding processing time from **5 days to under 24 hours** by integrating real-time menu-processing modules into core Java microservices built within Uber's Bazel monorepo.
 - Revamped multi-fulfillment order tracking across delivery, grocery, and pickup workflows, using **Redis caching and PostgreSQL tuning** to reduce peak request latency by **20%**.
@@ -67,7 +67,7 @@ I’m especially interested in **backend engineering, distributed systems, platf
 
 ### Hitachi Vantara — Software Engineering Intern
 
-**Bengaluru, India | Jan 2023 – Aug 2023**
+**Bengaluru, India | Jan 2023 – Jun 2023**
 
 - Developed backend data-transformation plugins for the **Pentaho platform** using Java and SQL.
 - Optimized relational query execution to improve reporting-module performance by **15%**.
