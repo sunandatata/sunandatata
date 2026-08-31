@@ -11,7 +11,7 @@
 
 ## About Me
 
-Software Engineer with experience building **production backend systems, distributed services, real-time data pipelines, and AI-powered applications** across **Pacific Life, Uber, Hitachi Vantara, and California State University, Fullerton**.
+Software Engineer with experience building **production backend systems, distributed services, real-time data pipelines, and AI-powered applications**.
 
 My work has focused on the engineering problems that matter in production: **latency, reliability, scalability, security, observability, and maintainability**. I have built and optimized systems using **Java, Spring Boot, Python, Kafka, Redis, PostgreSQL, Kubernetes, AWS, and Azure**, while also developing practical AI applications with **LangChain, RAG, vector search, PyTorch, and Hugging Face Transformers**.
 
