@@ -1,11 +1,9 @@
-# Sunanda Vasanthi Tata
+# Sunanda Tata
 
 ### Software Engineer | Backend & Distributed Systems | AI/LLM Engineering
 
-[![Email](https://img.shields.io/badge/Email-sunandavasanthitata%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sunandavasanthitata@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tata--sunanda-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tata-sunanda/)
-[![GitHub](https://img.shields.io/badge/GitHub-sunandatata-181717?style=flat&logo=github&logoColor=white)](https://github.com/sunandatata)
-[![Phone](https://img.shields.io/badge/Phone-%2B1%20(650)--764--9023-25A162?style=flat&logo=phone&logoColor=white)](tel:+16574455516)
+[![Email](https://img.shields.io/badge/Email-sunandavasanthitata%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sunandatata.careers@gmail.com)
+
 
 </div>
 
@@ -27,52 +25,6 @@ I’m especially interested in **backend engineering, distributed systems, platf
 - 🤖 **AI Engineering** — LLMs, LangChain, RAG, vector search, Hugging Face, PyTorch
 - 📊 **Data Engineering** — PostgreSQL, MySQL, MongoDB, Spark/PySpark, Apache Hudi
 - 🔐 **Production Reliability** — OAuth 2.0, JWT, RBAC, Prometheus, Jaeger, automated testing
-
----
-
-## Professional Experience
-
-### Pacific Life — Software Developer
-
-**Newport Beach, CA | Jun 2025 – May 2026**
-
-- Engineered **Java and Spring Boot loan portfolio validation services** for commercial and residential lending platforms, exposing REST APIs used by React dashboards for **300+ internal users** and removing the need for direct SQL access by operations teams.
-- Reduced **API p95 latency by 40%** across Kubernetes-hosted services by introducing Redis caching for high-cardinality loan lookups and tuning Kafka consumer partitioning and batch-fetch behavior.
-- Integrated **LangChain-based anomaly detection** into daily ingestion workflows to identify statistical outliers and surface validation issues before downstream accounting processing.
-- Shipped production **TypeScript workflow approval and exception-handling components** through GitHub Actions CI/CD while maintaining **WCAG 2.1 AA compliance** and contributing to zero regression incidents across four production cycles.
-
----
-
-### California State University, Fullerton — Software Developer
-
-**Fullerton, CA | Sep 2024 – May 2025**
-
-- Developed a **MERN-based real-time monitoring platform** supporting **100+ connected devices**, including REST APIs, telemetry, alerting, and observability capabilities.
-- Built a containerized **room discovery and booking service** with full-text search and filtering, deployed using **Docker and Kubernetes** and optimized for concurrent campus usage.
-- Researched and prototyped practical AI applications including **RAG-based assistants** and computer vision pipelines using deep-learning frameworks.
-- Implemented a **YOLOv8 hardware-detection system**, optimizing image-processing and inference workflows for more reliable real-time recognition.
-
----
-
-### Uber — Software Engineer
-
-**Bengaluru, India | Jul 2023 – Jul 2024**
-
-- Reduced merchant onboarding processing time from **5 days to under 24 hours** by integrating real-time menu-processing modules into core Java microservices built within Uber's Bazel monorepo.
-- Revamped multi-fulfillment order tracking across delivery, grocery, and pickup workflows, using **Redis caching and PostgreSQL tuning** to reduce peak request latency by **20%**.
-- Strengthened distributed-service security by standardizing **OAuth 2.0 and RBAC** access models and integrating **Prometheus and Jaeger** telemetry to accelerate production incident triage.
-- Built batch and real-time analytics ingestion pipelines with **Python and PySpark** over **Apache Hudi** datasets and supported automated staging deployments through **Spinnaker CI/CD**.
-
----
-
-### Hitachi Vantara — Software Engineering Intern
-
-**Bengaluru, India | Jan 2023 – Jun 2023**
-
-- Developed backend data-transformation plugins for the **Pentaho platform** using Java and SQL.
-- Optimized relational query execution to improve reporting-module performance by **15%**.
-- Built automated integration and interoperability test scripts using Python.
-- Supported containerized service deployments across **Docker and internal Kubernetes staging clusters** for CI/CD regression cycles.
 
 ---
 
