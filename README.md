@@ -1,6 +1,6 @@
 # Sunanda Tata
 
-### Software Engineer | Backend & Distributed Systems | AI/LLM Engineering
+### Software Engineer | Backend & Distributed Systems | AI/LLM Engineering|
 
 [![Email](https://img.shields.io/badge/Email-sunandatata.carrers%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sunandatata.careersa@gmail.com)
 
